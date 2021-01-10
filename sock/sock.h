@@ -74,8 +74,8 @@ extern int		verbose;
 #endif
 
 				/* function prototypes */
-void	bcopy(const void *, void *, size_t);
-void	bzero(void *, size_t);
+//void	bcopy(const void *, void *, size_t);
+//void	bzero(void *, size_t);
 
 void	buffers(int);
 int		cliopen(char *host, char *port);

@@ -1,7 +1,7 @@
 #include	<stdio.h>
 
 extern const char * const sys_errlist[];
-extern int	sys_nerr;
+//extern int	sys_nerr;
 
 char *
 strerror(int error)
